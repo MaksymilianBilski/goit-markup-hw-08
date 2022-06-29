@@ -1,0 +1,33 @@
+.index-main-about {
+    margin: 0 auto;
+}
+
+.index-main-about__h2 {
+    font-size: 36px;
+    line-height: 1.166em;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+
+.index-about-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+}
+
+.index-about-list__item {
+    padding-right: 30px;
+}
+
+.index-about-list__item--not {
+    padding-right: 0px;
+}
+
+.index-about-list__blank {
+    height: 224px;
+    width: 100px;
+}

@@ -1,0 +1,26 @@
+.index-header-div {
+    margin-right: 300px;
+}
+
+.index-nav-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.index-nav-list__item:not(:last-child) {
+    padding-right: 35.5px;
+}
+
+.index-nav-list__link {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.142em;
+    text-decoration: none;
+    color: inherit;
+}
+
+.index-nav-list--active {
+    max-height: 0px;
+}

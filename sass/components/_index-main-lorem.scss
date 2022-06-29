@@ -1,0 +1,38 @@
+.index-main-lorem {
+    padding: 94px 0 94px 0;
+}
+
+.index-main-lorem__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.index-main-lorem__item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.index-main-lorem__svg {
+    margin: 0 auto;
+}
+
+.index-main-lorem__h3 {
+    font-size: 14px;
+    line-height: 1.142em;
+    letter-spacing: 0.03em;
+    padding-bottom: 10px;
+}
+
+.index-main-lorem__p {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 1.714em;
+    color: var(--index-first-font-color);
+}

@@ -1,0 +1,77 @@
+.portfolio-signedphotos__list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 34px;
+}
+
+.portfolio-signedphotos__figure {
+    width: 370px;
+    height: 404px;
+    margin: 0 auto;
+}
+
+.portfolio-signedphotos__item {
+    cursor: pointer;
+    width: 370px;
+    height: 404px;
+    margin-bottom: 40px;
+}
+
+.portfolio-signedphotos__overlaybg {
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio-signedphotos__overlaydiv {
+    position: absolute;
+    background-color: var(--portfolio-link-color);
+    opacity: 0.9;
+    overflow: hidden;
+    width: 370px;
+    height: 294px;
+}
+
+.portfolio-signedphotos__figcaption {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid #EEEEEE;
+    margin-top: -3px;
+    height: 110px;
+}
+
+.portfolio-signedphotos__h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2em;
+    letter-spacing: 0.06em;
+    margin-left: 23px;
+}
+
+.portfolio-signedphotos__overlayp {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--index-third-font-color);
+    position: absolute;
+    text-align: left;
+    padding: 49px 25px 49px 24px;
+    opacity: none;
+}
+
+.portfolio-signedphotos__p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--portfolio-first-font-color);
+    letter-spacing: 0.03em;
+    margin-left: 23px;
+    margin-top: 0px;
+}

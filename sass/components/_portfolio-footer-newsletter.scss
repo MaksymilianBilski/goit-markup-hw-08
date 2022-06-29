@@ -1,0 +1,59 @@
+.portfolio-footer__newsletter {
+    margin: 0 auto;
+    width: 570px;
+    height: 83px;
+    margin: 72px 0 90px 70px;
+}
+
+.portfolio-footer__form {
+    display: flex;
+}
+
+.portfolio-footer__newslettertext {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--index-third-font-color);
+    margin-bottom: 20px;
+}
+
+.portfolio-footer__newsletteremail {
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255, 0.3);
+    resize: both;
+    min-height: 50px;
+    min-width: 358px;
+    border-radius: 4px;
+    padding-left: 16px;
+    color: var(--portfolio-third-font-color);
+}
+
+.portfolio-footer__newsletterbutton {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    background-color: var(--index-link-color);
+    border: none;
+    border-radius: 4px;
+    color: var(--index-third-font-color);
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.portfolio-footer__newslettersvg {
+    width: 24px;
+    height: 24px;
+    fill: var(--portfolio-third-font-color);
+}

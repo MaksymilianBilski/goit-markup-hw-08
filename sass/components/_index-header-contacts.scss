@@ -1,0 +1,25 @@
+.index-header-contacts--none {
+    list-style: none;
+}
+
+.index-header-contacts {
+    display: flex;
+    align-items: center;
+}
+
+.index-header-contacts__link {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14em;
+    letter-spacing: 0.02em;
+    color: var(--index-first-font-color);
+    text-decoration: none;
+}
+
+.index-header-contacts__svg {
+    margin-right: 10px;
+}
+
+.index-header-contacts__item:first-child {
+    margin-right: 30px;
+}

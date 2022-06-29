@@ -1,0 +1,105 @@
+.index-main-header {
+    background-image: url("../images/img10.png");
+    background-size: 1600px;
+    background-repeat: no-repeat;
+    display: flex;
+    margin: 0 auto;
+    background-position: center;
+    fill: contain;
+}
+
+.index-main-lorem__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    background-color: var(--index-bg);
+    margin-bottom: 30px;
+}
+
+.index-about-list__img__1 {
+    height: 294px;
+    width: 370px;
+    background-image: url("../images/img1.jpg");
+    fill: cover;
+    background-repeat: no-repeat;
+}
+
+.index-about-list__img__2 {
+    height: 294px;
+    width: 370px;
+    background-image: url("../images/img2.jpg");
+    fill: cover;
+    background-repeat: no-repeat;
+}
+
+.index-about-list__img__3 {
+    height: 294px;
+    width: 370px;
+    background-image: url("../images/img3.jpg");
+    fill: cover;
+    background-repeat: no-repeat;
+}
+
+.index-about-list__img__1::after {
+    content: "Aplikacje Mobilne";
+    background-color: var(--index-first-bg-opacity);
+    width: 100%;
+    height: 70px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    color: var(--index-third-font-color);
+}
+
+.index-about-list__img__2::after {
+    content: "Aplikacje Mobilne";
+    background-color: var(--index-first-bg-opacity);
+    width: 100%;
+    height: 70px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    color: var(--index-third-font-color);
+}
+
+.index-about-list__img__3::after {
+    content: "Rozwiązania graficzne";
+    background-color: var(--index-first-bg-opacity);
+    width: 100%;
+    height: 70px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto';
+    color: var(--index-third-font-color);
+}
+
+.index-main-team {
+    background-color: var(--index-bg);
+}
+
+.index-footer {
+    background-color: var(--index-first-bg);
+}

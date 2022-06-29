@@ -1,0 +1,31 @@
+.portfolio-header-nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-right: 300px;
+}
+
+.portfolio-header-nav__item:not(:last-child) {
+    padding-right: 33.5px;
+}
+
+.portfolio-header-nav__link {
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.142em;
+    text-decoration: none;
+    color: inherit;
+}
+
+.portfolio-header-nav--active {
+    max-height: 0px;
+}
+
+.portfolio-header-nav--active::after {
+    content: "";
+    display: flex;
+    width: 58px;
+    border-top: 4px solid var(--portfolio-link-color);
+    margin-top: 28px;
+}

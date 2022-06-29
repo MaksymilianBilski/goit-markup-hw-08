@@ -1,0 +1,23 @@
+.portfolio-header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 0 14.5px 0;
+}
+
+.portfolio-main__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.portfolio-signedphotos__container {
+    padding-bottom: 94px;
+}
+
+.portfolio-footer__container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-height: 252px;
+}

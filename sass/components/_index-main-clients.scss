@@ -1,0 +1,38 @@
+.index-main-clients {
+    margin-bottom: 94px;
+}
+
+.index-main-clients__section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: space-between;
+}
+
+.index-main-clients__h2 {
+    font-size: 36px;
+    line-height: 1.166em;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    padding-bottom: 50px;
+}
+
+.icons-client {
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--index-client-icon-border);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: var(--index-team-icons-color);
+    cursor: pointer;
+}
+
+.icons-client:not(:last-child) {
+    margin-right: 30px;
+}
+
+.icons-client__svg {
+    width: 106px;
+    height: 60.04px;
+}

@@ -1,0 +1,26 @@
+.portfolio-header-contacts {
+    font-size: 14px;
+    line-height: 1.1428em;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.portfolio-header-contacts__contact {
+    margin-left: 10px;
+}
+
+.portfolio-header-contacts__contact:first-child {
+    margin-right: 30px;
+}
+
+.portfolio-header-contacts__contact {
+    color: var(--portfolio-first-font-color);
+    text-decoration: none;
+}
+
+.portfolio-header-contacts__svg {
+    margin-right: 10px;
+}

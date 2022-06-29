@@ -1,0 +1,48 @@
+.index-header-contacts__link:hover {
+    color: var(--index-link-color);
+    fill: var(--index-link-color);
+    transition: cubic-bezier(0.4, 0, 0.2, 1), 250ms;
+    cursor: pointer;
+}
+
+.index-header-contacts__item:focus {
+    color: var(--index-link-color);
+    fill: var(--index-link-color);
+    transition: cubic-bezier(0.4, 0, 0.2, 1), 250ms;
+    cursor: pointer;
+}
+
+.index-nav-list__link:hover,
+.index-nav-list__link:focus {
+    color: var(--index-link-color);
+    transition: cubic-bezier(0.4, 0, 0.2, 1), 250ms;
+}
+
+.icons-client:hover {
+    fill: var(--index-icon-hover-color);
+    border-color: var(--index-icon-hover-color);
+    transition: cubic-bezier(0.4, 0, 0.2, 1), 250ms;
+}
+
+.icons-team__div:hover {
+    background-color: var(--index-link-color);
+    fill: #ffffff;
+    transition: cubic-bezier(0.4, 0, 0.2, 1), 250ms;
+}
+
+.index-footer-data__link:hover,
+.index-footer-data__link:focus {
+    color: var(--index-link-color);
+    transition: cubic-bezier(0.4, 0, 0.2, 1), 250ms;
+}
+
+.index-join-section__div:hover {
+    background-color: var(--index-icon-hover-color);
+    transition: cubic-bezier(0.4, 0, 0.2, 1), 250ms;
+}
+
+.index-footer-newsletter__placeholder:hover {
+    border: 1px solid var(--index-link-color);
+    transition: cubic-bezier(0.4, 0, 0.2, 1), 250ms;
+}
+
