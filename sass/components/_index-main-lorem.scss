@@ -4,15 +4,16 @@
 
 .index-main-lorem__list {
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
     margin: 0 auto;
+    padding: 0;
 }
 
 .index-main-lorem__item {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
     margin: 0 auto;
@@ -35,4 +36,5 @@
     letter-spacing: 0.03em;
     line-height: 1.714em;
     color: var(--index-first-font-color);
+    width: 440px;
 }

@@ -1,23 +1,25 @@
 .index-main-clients {
-    margin-bottom: 94px;
+    margin-bottom: 60px;
 }
 
 .index-main-clients__section {
     display: flex;
-    justify-content: space-evenly;
-    align-items: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .index-main-clients__h2 {
-    font-size: 36px;
-    line-height: 1.166em;
+    font-size: 28px;
+    line-height: 33px;
     font-weight: 700;
     letter-spacing: 0.03em;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
+    margin: 60px 0 0;
 }
 
 .icons-client {
-    width: 170px;
+    width: 210px;
     height: 92px;
     border: 1px solid var(--index-client-icon-border);
     border-radius: 4px;
@@ -28,8 +30,12 @@
     cursor: pointer;
 }
 
-.icons-client:not(:last-child) {
+.icons-client:nth-child(2n+1) {
     margin-right: 30px;
+}
+
+.icons-client:nth-child(-n+4) {
+    margin-bottom: 30px;
 }
 
 .icons-client__svg {
