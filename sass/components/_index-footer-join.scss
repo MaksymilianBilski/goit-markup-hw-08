@@ -2,6 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 auto;
+}
+
+@media screen and(min-width: 1200px) {
+    .index-footer-join {}
 }
 
 .index-footer-join__p {
@@ -15,9 +20,17 @@
     padding-bottom: 20px;
 }
 
+@media screen and(min-width: 1200px) {
+    .index-footer-join__p {}
+}
+
 .index-join-section {
     display: flex;
     justify-content: space-between;
+}
+
+@media screen and(min-width: 1200px) {
+    .index-join-section {}
 }
 
 .index-join-section__div {
@@ -31,6 +44,10 @@
     background-color: rgba(255, 255, 255, 0.1);
     margin-bottom: 30px;
     cursor: pointer;
+}
+
+@media screen and(min-width: 1200px) {
+    .index-join-section__div {}
 }
 
 .index-join-section__div:not(:last-child) {

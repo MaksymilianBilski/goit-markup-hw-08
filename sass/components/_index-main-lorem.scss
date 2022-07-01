@@ -2,6 +2,12 @@
     padding: 94px 0 94px 0;
 }
 
+@media screen and(min-width: 768px) {
+    .index-main-lorem {
+        padding: 60px 0 94px 0;
+    }
+}
+
 .index-main-lorem__list {
     display: flex;
     justify-content: center;
@@ -11,12 +17,66 @@
     padding: 0;
 }
 
+@media screen and(min-width: 1200px) {
+    .index-main-lorem__list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin: 0 auto;
+    }
+}
+
 .index-main-lorem__item {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin: 0 auto;
+}
+
+@media screen and(min-width: 1200px) {
+    .index-main-lorem__item {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+}
+
+.index-main-lorem__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 120px;
+    background-color: var(--index-bg);
+    margin-bottom: 30px;
+}
+
+@media screen and(min-width: 768px) {
+    .index-main-lorem__icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 354px;
+        height: 120px;
+        background-color: var(--index-bg);
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and(min-width: 1200px) {
+    .index-main-lorem__icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 270px;
+        height: 120px;
+        background-color: var(--index-bg);
+        margin-bottom: 30px;
+    }
 }
 
 .index-main-lorem__svg {
@@ -30,11 +90,42 @@
     padding-bottom: 10px;
 }
 
+@media screen and(min-width: 1200px) {
+    .index-main-lorem__h3 {
+        font-size: 14px;
+        line-height: 1.142em;
+        letter-spacing: 0.03em;
+        padding-bottom: 10px;
+    }
+}
+
 .index-main-lorem__p {
     font-weight: 400;
     font-size: 14px;
     letter-spacing: 0.03em;
     line-height: 1.714em;
     color: var(--index-first-font-color);
-    width: 440px;
+    width: 354px;
+}
+
+@media screen and(min-width: 768px) {
+    .index-main-lorem__p {
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        line-height: 1.714em;
+        color: var(--index-first-font-color);
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and(min-width: 1200px) {
+    .index-main-lorem__p {
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 0.03em;
+        line-height: 1.714em;
+        color: var(--index-first-font-color);
+        max-width: 270px;
+    }
 }

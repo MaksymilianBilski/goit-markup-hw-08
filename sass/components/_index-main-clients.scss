@@ -2,11 +2,25 @@
     margin-bottom: 60px;
 }
 
+@media screen and(min-width: 1200px) {
+    .index-main-clients {
+        margin-bottom: 94px;
+    }
+}
+
 .index-main-clients__section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+@media screen and(min-width: 1200px) {
+    .index-main-clients__section {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: space-between;
+    }
 }
 
 .index-main-clients__h2 {
@@ -16,6 +30,16 @@
     letter-spacing: 0.03em;
     padding-bottom: 30px;
     margin: 60px 0 0;
+}
+
+@media screen and(min-width: 1200px) {
+    .index-main-clients__h2 {
+        font-size: 36px;
+        line-height: 1.166em;
+        font-weight: 700;
+        letter-spacing: 0.03em;
+        padding-bottom: 50px;
+    }
 }
 
 .icons-client {
@@ -30,12 +54,70 @@
     cursor: pointer;
 }
 
-.icons-client:nth-child(2n+1) {
+@media screen and(min-width: 1200px) {
+    .icons-client {
+        width: 170px;
+        height: 92px;
+        border: 1px solid var(--index-client-icon-border);
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        fill: var(--index-team-icons-color);
+        cursor: pointer;
+    }
+}
+
+.icons-client:nth-child(n+1) {
     margin-right: 30px;
 }
 
-.icons-client:nth-child(-n+4) {
+.icons-client:nth-child(-n + 4) {
     margin-bottom: 30px;
+}
+
+@media screen and(min-width: 768px) {
+    .icons-client:nth-child(1) {
+        margin-right: 30px;
+        margin-bottom: 30px;
+
+    }
+}
+
+@media screen and(min-width: 768px) {
+    .icons-client:nth-child(2) {
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+
+@media screen and(min-width: 768px) {
+    .icons-client:nth-child(3) {
+        margin-bottom: 30px;
+    }
+}
+
+
+
+@media screen and(min-width: 768px) {
+    .icons-client:nth-child(4) {
+        margin-right: 30px;
+    }
+}
+
+
+@media screen and(min-width: 768px) {
+    .icons-client:nth-child(5) {
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and(min-width: 1200px) {
+    .icons-client:not(:last-child) {
+        margin-right: 30px;
+    }
 }
 
 .icons-client__svg {

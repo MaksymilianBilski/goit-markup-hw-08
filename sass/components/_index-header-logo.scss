@@ -8,6 +8,17 @@
     text-decoration: none;
 }
 
+@media screen and(min-width: 1200px) {
+    .index-upper-logo {
+            font-size: 26px;
+                line-height: 31px;
+                font-family: Raleway;
+                letter-spacing: 0.03em;
+                color: inherit;
+                text-decoration: none;
+    }
+}
+
 .index-top-web {
     color: var(--index-link-color);
 }
