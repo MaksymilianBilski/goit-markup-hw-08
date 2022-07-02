@@ -1,11 +1,28 @@
 .portfolio-footer__sectionjoin {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
     width: 206px;
     height: 80px;
-    margin: 72px 0 90px 70px;
 }
+
+@media screen and (min-width: 768px) {.portfolio-footer__sectionjoin {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 206px;
+        height: 80px;
+        margin: 72px 0 90px 70px;
+    }}
+
+@media screen and (min-width: 1200px) {.portfolio-footer__sectionjoin {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 206px;
+        height: 80px;
+        margin: 72px 0 90px 70px;
+    }}
 
 .portfolio-footer__jointext {
     font-family: 'Roboto';
@@ -17,11 +34,18 @@
     color: var(--portfolio-third-font-color);
     padding-bottom: 20px;
 }
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 1200px) {}
 
 .portfolio-footer-sectionicons {
     display: flex;
     justify-content: space-between;
 }
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 1200px) {}
 
 .portfolio-footer-sectionicons__icondiv {
     height: 44px;
@@ -36,11 +60,23 @@
     cursor: pointer;
 }
 
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 1200px) {}
+
 .portfolio-footer-sectionicons__icondiv:not(:last-child) {
     margin-right: 10px;
 }
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 1200px) {}
 
 .portfolio-footer-sectionicons__svg {
     width: 20px;
     height: 20px;
 }
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 1200px) {}

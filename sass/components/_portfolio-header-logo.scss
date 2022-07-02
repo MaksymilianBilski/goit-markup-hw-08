@@ -1,11 +1,23 @@
 .portfolio-header__logo {
-    font-size: 26px;
-    line-height: 1.192em;
+    font-size: 24px;
+    line-height: 28px;
     letter-spacing: 0.03em;
     font-weight: 700;
     color: inherit;
     text-decoration: none;
     font-family: Raleway;
+}
+
+@media screen and (min-width: 1200px) {
+    .portfolio-header__logo {
+        font-size: 26px;
+        line-height: 1.192em;
+        letter-spacing: 0.03em;
+        font-weight: 700;
+        color: inherit;
+        text-decoration: none;
+        font-family: Raleway;
+    }
 }
 
 .portfolio-header__web {
