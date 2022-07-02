@@ -3,27 +3,31 @@
     flex-direction: column;
     align-items: space-between;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-@media screen and (min-width: 768px){.portfolio-signedphotos__list {
+@media screen and (min-width: 768px) {
+    .portfolio-signedphotos__list {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
         list-style: none;
         padding-top: 34px;
-    }}
+    }
+}
 
-        @media screen and (min-width: 1200px) {
-            .portfolio-signedphotos__list {
-                    display: flex;
-                    flex-wrap: wrap;
-                    flex-direction: row;
-                    justify-content: space-between;
-                    list-style: none;
-                    padding-top: 34px;
-                }
-        }
+@media screen and (min-width: 1200px) {
+    .portfolio-signedphotos__list {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        list-style: none;
+        padding-top: 34px;
+    }
+}
 
 .portfolio-signedphotos__figure {
     width: 450px;
@@ -31,18 +35,21 @@
     margin: 0 auto;
 }
 
-@media screen and (min-width: 768px) {.portfolio-signedphotos__figure {
+@media screen and (min-width: 768px) {
+    .portfolio-signedphotos__figure {
         width: 370px;
         height: 404px;
         margin: 0 auto;
     }
-    }
+}
 
-@media screen and (min-width: 1200px) {.portfolio-signedphotos__figure {
+@media screen and (min-width: 1200px) {
+    .portfolio-signedphotos__figure {
         width: 370px;
         height: 404px;
         margin: 0 auto;
-    }}
+    }
+}
 
 .portfolio-signedphotos__item {
     cursor: pointer;
@@ -51,19 +58,23 @@
     margin-bottom: 40px;
 }
 
-@media screen and (min-width: 768px) {.portfolio-signedphotos__item {
+@media screen and (min-width: 768px) {
+    .portfolio-signedphotos__item {
         cursor: pointer;
         width: 370px;
         height: 404px;
         margin-bottom: 40px;
-    }}
+    }
+}
 
-@media screen and (min-width: 1200px) {.portfolio-signedphotos__item {
+@media screen and (min-width: 1200px) {
+    .portfolio-signedphotos__item {
         cursor: pointer;
         width: 370px;
         height: 404px;
         margin-bottom: 40px;
-    }}
+    }
+}
 
 .portfolio-signedphotos__img {
     width: 450px;
@@ -72,17 +83,18 @@
 
 @media screen and (min-width: 768px) {
     .portfolio-signedphotos__img {
-                width: 370px;
-                    height: 294px;
+        width: 370px;
+        height: 294px;
     }
 }
 
-@media screen and (min-width: 1200px){
-        .portfolio-signedphotos__img{
+@media screen and (min-width: 1200px) {
+    .portfolio-signedphotos__img {
         width: 370px;
-            height: 294px;
-        }
+        height: 294px;
+    }
 }
+
 .portfolio-signedphotos__overlaybg {
     position: relative;
     overflow: hidden;
@@ -92,15 +104,15 @@
 
 @media screen and (min-width: 768px) {
     .portfolio-signedphotos__overlaybg {
-            position: relative;
-            overflow: hidden;
-            width: 370px;
-            height: 294px;
-        }
+        position: relative;
+        overflow: hidden;
+        width: 370px;
+        height: 294px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
-.portfolio-signedphotos__overlaybg {
+    .portfolio-signedphotos__overlaybg {
         position: relative;
         overflow: hidden;
         width: 370px;
@@ -114,53 +126,59 @@
     opacity: 0.9;
     overflow: hidden;
     width: 450px;
-        height: 294px;
+    height: 294px;
 }
 
-@media screen and (min-width: 768px) {.portfolio-signedphotos__overlaydiv {
+@media screen and (min-width: 768px) {
+    .portfolio-signedphotos__overlaydiv {
         position: absolute;
         background-color: var(--portfolio-link-color);
         opacity: 0.9;
         overflow: hidden;
         width: 370px;
         height: 294px;
-    }}
+    }
+}
 
-@media screen and (min-width: 1200px) {.portfolio-signedphotos__overlaydiv {
+@media screen and (min-width: 1200px) {
+    .portfolio-signedphotos__overlaydiv {
         position: absolute;
         background-color: var(--portfolio-link-color);
         opacity: 0.9;
         overflow: hidden;
         width: 370px;
         height: 294px;
-    }}
+    }
+}
 
 .portfolio-signedphotos__figcaption {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     border: 1px solid #EEEEEE;
-    margin-top: -9px;
-    height: 10px;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    margin-top: 0px;
+    height: 110px;
 }
 
-@media screen and (min-width: 768px) {.portfolio-signedphotos__figcaption {
+@media screen and (min-width: 768px) {
+    .portfolio-signedphotos__figcaption {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         border: 1px solid #EEEEEE;
         margin-top: -3px;
         height: 110px;
-    }}
+    }
+}
 
-@media screen and (min-width: 1200px) {.portfolio-signedphotos__figcaption {
+@media screen and (min-width: 1200px) {
+    .portfolio-signedphotos__figcaption {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         border: 1px solid #EEEEEE;
         margin-top: -3px;
         height: 110px;
-    }}
+    }
+}
 
 .portfolio-signedphotos__h2 {
     font-weight: 700;
@@ -170,21 +188,25 @@
     margin-left: 23px;
 }
 
-@media screen and (min-width: 768px) {.portfolio-signedphotos__h2 {
+@media screen and (min-width: 768px) {
+    .portfolio-signedphotos__h2 {
         font-weight: 700;
         font-size: 18px;
         line-height: 2em;
         letter-spacing: 0.06em;
         margin-left: 23px;
-    }}
+    }
+}
 
-@media screen and (min-width: 1200px) {.portfolio-signedphotos__h2 {
+@media screen and (min-width: 1200px) {
+    .portfolio-signedphotos__h2 {
         font-weight: 700;
         font-size: 18px;
         line-height: 2em;
         letter-spacing: 0.06em;
         margin-left: 23px;
-    }}
+    }
+}
 
 .portfolio-signedphotos__overlayp {
     font-family: 'Roboto';
@@ -199,7 +221,8 @@
     opacity: none;
 }
 
-@media screen and (min-width: 768px) {.portfolio-signedphotos__overlayp {
+@media screen and (min-width: 768px) {
+    .portfolio-signedphotos__overlayp {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -210,9 +233,11 @@
         text-align: left;
         padding: 49px 25px 49px 24px;
         opacity: none;
-    }}
+    }
+}
 
-@media screen and (min-width: 1200px) {.portfolio-signedphotos__overlayp {
+@media screen and (min-width: 1200px) {
+    .portfolio-signedphotos__overlayp {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -223,7 +248,8 @@
         text-align: left;
         padding: 49px 25px 49px 24px;
         opacity: none;
-    }}
+    }
+}
 
 .portfolio-signedphotos__p {
     font-family: 'Roboto';
@@ -237,7 +263,8 @@
     margin-top: 0px;
 }
 
-@media screen and (min-width: 768px) {.portfolio-signedphotos__p {
+@media screen and (min-width: 768px) {
+    .portfolio-signedphotos__p {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -247,9 +274,11 @@
         letter-spacing: 0.03em;
         margin-left: 23px;
         margin-top: 0px;
-    }}
+    }
+}
 
-@media screen and (min-width: 1200px) {.portfolio-signedphotos__p {
+@media screen and (min-width: 1200px) {
+    .portfolio-signedphotos__p {
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -259,4 +288,5 @@
         letter-spacing: 0.03em;
         margin-left: 23px;
         margin-top: 0px;
-    }}
+    }
+}

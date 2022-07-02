@@ -20,12 +20,14 @@
 }
 
 @media screen and(min-width: 1200px) {
-    .index-main-team__list {display: flex;
+    .index-main-team__list {
+        display: flex;
         align-items: center;
         justify-content: space-between;
         flex-direction: row;
         width: 100%;
-        margin: 0 auto;}
+        margin: 0 auto;
+    }
 }
 
 .index-main-team__card {
@@ -33,6 +35,10 @@
     height: 622px;
     display: flex;
     flex-direction: column;
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+                    0px 1px 1px rgba(0, 0, 0, 0.14),
+                    0px 2px 1px rgba(0, 0, 0, 0.2);
+                border-radius: 0px 0px 4px 4px
 }
 
 @media screen and(min-width: 768px) {
@@ -52,14 +58,14 @@
 @media screen and(min-width: 1200px) {
     .index-main-team__card {
         width: 270px;
-            max-height: 428px;
-            background-color: var(--index-zero-bg);
-            margin-bottom: 30px;
-            padding-bottom: 24px;
-            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
-                0px 1px 1px rgba(0, 0, 0, 0.14),
-                0px 2px 1px rgba(0, 0, 0, 0.2);
-            border-radius: 0px 0px 4px 4px
+        max-height: 428px;
+        background-color: var(--index-zero-bg);
+        margin-bottom: 30px;
+        padding-bottom: 24px;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+            0px 1px 1px rgba(0, 0, 0, 0.14),
+            0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px
     }
 }
 
@@ -86,13 +92,13 @@
 
 @media screen and(min-width: 1200px) {
     .index-main-team__item {
-                display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    width: 270px;
-                    max-height: 428px;
-                    margin: 0 auto;
-                    margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 270px;
+        max-height: 428px;
+        margin: 0 auto;
+        margin-bottom: 30px;
     }
 }
 
@@ -106,7 +112,7 @@
 @media screen and(min-width: 1200px) {
     .index-main-team__img {
         width: 270px;
-            max-height: 260px;
+        max-height: 260px;
     }
 }
 

@@ -2,8 +2,10 @@
     margin: 0 auto;
 }
 
-@media screen and(max-width: 1199px){
-    .index-main-about{display: none;}
+@media screen and(max-width: 1199px) {
+    .index-main-about {
+        display: none;
+    }
 }
 
 .index-main-about__h2 {

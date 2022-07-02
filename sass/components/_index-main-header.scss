@@ -9,13 +9,15 @@
 }
 
 @media screen and(min-width: 1200px) {
-    .index-main-header__h1 {font-family: Roboto;
+    .index-main-header__h1 {
+        font-family: Roboto;
         font-weight: 900;
         font-size: 44px;
         letter-spacing: 0.06em;
         line-height: 1.36em;
         color: var(--index-third-font-color);
-        margin: 0 auto;}
+        margin: 0 auto;
+    }
 }
 
 .index-main-header__button {

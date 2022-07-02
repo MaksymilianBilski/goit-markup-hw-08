@@ -2,14 +2,16 @@
     display: flex;
 }
 
-@media screen and (min-width: 768px){}
+@media screen and (min-width: 768px) {}
 
-@media screen and (min-width: 1200px) {.portfolio-header__container {
+@media screen and (min-width: 1200px) {
+    .portfolio-header__container {
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding: 25px 0 14.5px 0;
-    }}
+    }
+}
 
 .portfolio-main__container {
     display: flex;
@@ -19,41 +21,50 @@
 
 @media screen and (min-width: 768px) {}
 
-@media screen and (min-width: 1200px) {.portfolio-main__container {
+@media screen and (min-width: 1200px) {
+    .portfolio-main__container {
         display: flex;
         align-items: flex-start;
         justify-content: center;
-    }}
+    }
+}
 
 .portfolio-signedphotos__container {
-    padding-bottom: 94px;
+    padding-bottom: 20px;
 }
 
 
 @media screen and (min-width: 768px) {}
 
-@media screen and (min-width: 1200px) {.portfolio-signedphotos__container {
+@media screen and (min-width: 1200px) {
+    .portfolio-signedphotos__container {
         padding-bottom: 94px;
-    }}
+    }
+}
 
- .portfolio-footer__container {
-     display: flex;
-     flex-direction: column;
-     justify-content: space-evenly;
-     align-items: center;
-     height: 603px;
- }
+.portfolio-footer__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 603px;
+}
 
-@media screen and (min-width: 768px) {.portfolio-footer__container {
+@media screen and (min-width: 768px) {
+    .portfolio-footer__container {
         display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;
         height: 603px;
-    }}
+    }
+}
 
-@media screen and (min-width: 1200px) {.portfolio-footer__container {
+@media screen and (min-width: 1200px) {
+    .portfolio-footer__container {
         display: flex;
+        flex-direction: row;
         justify-content: flex-start;
         align-items: center;
         max-height: 252px;
-    }}
+    }
+}

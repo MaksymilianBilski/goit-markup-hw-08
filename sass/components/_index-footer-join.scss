@@ -42,12 +42,36 @@
     fill: var(--index-third-font-color);
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
-    margin-bottom: 30px;
+
     cursor: pointer;
 }
 
+@media screen and(min-width: 768px) {
+    .index-join-section__div {
+        height: 44px;
+        width: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        fill: var(--index-third-font-color);
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.1);
+        cursor: pointer;
+    }
+}
+
 @media screen and(min-width: 1200px) {
-    .index-join-section__div {}
+    .index-join-section__div {
+        height: 44px;
+        width: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        fill: var(--index-third-font-color);
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.1);
+        cursor: pointer;
+    }
 }
 
 .index-join-section__div:not(:last-child) {
