@@ -1,4 +1,5 @@
 .index-main-header {
+    width: 480px;
     background-image: url("../images/img10.png");
     background-size: 480px 400px;
     background-repeat: no-repeat;
@@ -7,8 +8,12 @@
     background-position: center;
 }
 
+
+@media screen and (min-device-pixel-ratio: 2) and(min-resolution: 192dpi) and(min-resolution: 2dppx) {}
+
 @media screen and(min-width: 768px) {
     .index-main-header {
+        width: 100%;
         background-image: url("../images/img10.png");
         background-size: 768px 400px;
         background-repeat: no-repeat;
@@ -20,6 +25,7 @@
 
 @media screen and(min-width: 1200px) {
     .index-main-header {
+        width: 100%;
         background-image: url("../images/img10.png");
         background-size: 1600px;
         background-repeat: no-repeat;
@@ -113,4 +119,19 @@
 
 .index-footer {
     background-color: var(--index-first-bg);
+    width: 480px;
+}
+
+@media screen and(min-width: 768px) {
+    .index-footer {
+        background-color: var(--index-first-bg);
+        width: 100%;
+    }
+}
+
+@media screen and(min-width: 1200px) {
+    .index-footer {
+        background-color: var(--index-first-bg);
+        width: 100%;
+    }
 }
