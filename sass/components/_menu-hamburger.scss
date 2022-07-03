@@ -1,5 +1,14 @@
-.menu-hamburger {
-    height: 796px;
-    width: 480px;
+.menu-hamb {
     border: 1px solid salmon;
+    color: yellow;
+    font-size: 20px;
+}
+
+.kurwamenu{
+    position: absolute;
+    left: -100%;
+}
+
+.kurwamenu.active{
+        left: 0;
 }

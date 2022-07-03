@@ -395,6 +395,21 @@
   transition-timing-function: ease-in;
 }
 
+.menu-hamb {
+  border: 1px solid salmon;
+  color: yellow;
+  font-size: 20px;
+}
+
+.kurwamenu {
+  position: absolute;
+  left: -100%;
+}
+
+.kurwamenu.active {
+  left: 0;
+}
+
 .container {
   width: 480px;
   margin: 0 auto;
