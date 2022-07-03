@@ -137,6 +137,12 @@
     cursor: pointer;
 }
 
+@media screen and(min-width: 1200px){
+    .portfolio-footer__newsletterbutton {
+            margin-top: 0;
+        }
+}
+
 .portfolio-footer__newslettersvg {
     width: 24px;
     height: 24px;

@@ -3,16 +3,16 @@
     margin: 0 auto 60px;
 }
 
-.portfolio-main{
+.portfolio-main {}
 
-}
-
-@media  screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
     .portfolio-main {
-            width: 100%;
-        }
+        width: 100%;
+    }
 }
 
-@media screen and (min-width: 1200px) {.portfolio-main {
+@media screen and (min-width: 1200px) {
+    .portfolio-main {
         width: 100%;
-    }}
+    }
+}
