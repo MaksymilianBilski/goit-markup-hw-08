@@ -1,13 +1,13 @@
-const hamburger = document.querySelector(".menu-hamb");
-const kurwamenu = document.querySelector(".kurwamenu");
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
 
 hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("active");
-  kurwamenu.classList.toggle("active");
+  navMenu.classList.toggle("active");
 })
 
-document.querySelectorAll(".link-hamburger").forEach(n => n.
+document.querySelectorAll(".nav-link").forEach(n => n.
   addEventListener("click", () => {
     hamburger.classList.remove("active");
-    hamburger.classList.remove("active");
+    navMenu.classList.remove("active");
   }))
