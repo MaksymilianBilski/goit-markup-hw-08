@@ -2,13 +2,14 @@
     border-bottom: 1px solid #ECECEC;
 }
 
+@media screen and(min-width: 768px) {
 .index-nav-list--active::after {
     content: "";
     display: block;
     width: 45px;
-    margin-top: 20px;
+    margin-top: 18.5px;
     border-top: 4px solid var(--index-link-color);
-}
+}}
 
 @media screen and(min-width: 1200px) {
     .index-nav-list--active::after {

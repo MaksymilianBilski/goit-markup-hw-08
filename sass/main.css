@@ -855,6 +855,20 @@
   width: 100px;
 }
 
+.index-main-team {
+  width: 480px;
+}
+
+@media screen and (min-width: 768px) {
+  .index-main-team {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .index-main-team {
+    width: 100%;
+  }
+}
 .index-main-team__list {
   display: flex;
   align-items: center;
@@ -1010,12 +1024,22 @@
 }
 
 .index-main-clients {
+  width: 480px;
+  margin-left: 15px;
   margin-bottom: 60px;
 }
 
+@media screen and (min-wdith: 768px) {
+  .index-main-clients {
+    width: 100%;
+    margin-left: 15px;
+    margin-bottom: 60px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .index-main-clients {
     margin-bottom: 94px;
+    width: 100%;
   }
 }
 .index-main-clients__section {
@@ -1471,14 +1495,15 @@
   border-bottom: 1px solid #ECECEC;
 }
 
-.index-nav-list--active::after {
-  content: "";
-  display: block;
-  width: 45px;
-  margin-top: 20px;
-  border-top: 4px solid var(--index-link-color);
+@media screen and (min-width: 768px) {
+  .index-nav-list--active::after {
+    content: "";
+    display: block;
+    width: 45px;
+    margin-top: 18.5px;
+    border-top: 4px solid var(--index-link-color);
+  }
 }
-
 @media screen and (min-width: 1200px) {
   .index-nav-list--active::after {
     content: "";
@@ -1488,16 +1513,17 @@
     border-top: 4px solid var(--index-link-color);
   }
 }
-.index-main-header {
-  width: 480px;
-  background-image: url("../images/img10.png");
-  background-size: 480px 400px;
-  background-repeat: no-repeat;
-  display: flex;
-  margin: 0 auto;
-  background-position: center;
+@media screen and (max-width: 480px) and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .index-main-header {
+    width: 480px;
+    background-image: url("../images/img10.png");
+    background-size: 480px 400px;
+    background-repeat: no-repeat;
+    display: flex;
+    margin: 0 auto;
+    background-position: center;
+  }
 }
-
 @media screen and (min-width: 768px) {
   .index-main-header {
     width: 100%;
@@ -1718,7 +1744,7 @@
     font-weight: 500;
     letter-spacing: 0.02em;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     list-style: none;
   }
 }
@@ -1774,6 +1800,7 @@
   text-decoration: none;
   font-family: Raleway;
   padding: 13px 0 13px;
+  margin-left: 15px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -1800,7 +1827,7 @@
     display: flex;
     justify-content: center;
     list-style: none;
-    margin-right: 300px;
+    margin-right: 130px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1853,7 +1880,7 @@
     display: flex;
     width: 58px;
     border-top: 4px solid var(--portfolio-link-color);
-    margin-top: 28px;
+    margin-top: 23px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1862,7 +1889,7 @@
     display: flex;
     width: 58px;
     border-top: 4px solid var(--portfolio-link-color);
-    margin-top: 28px;
+    margin-top: 32px;
   }
 }
 .portfolio-main-filter {
@@ -1954,7 +1981,7 @@
 .portfolio-signedphotos__list {
   display: flex;
   flex-direction: column;
-  align-items: space-between;
+  align-items: center;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -2023,11 +2050,12 @@
     margin-bottom: 40px;
   }
 }
-.portfolio-signedphotos__img {
-  width: 450px;
-  height: 294px;
+@media screen and (max-width: 480px) and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .portfolio-signedphotos__img {
+    width: 450px;
+    height: 294px;
+  }
 }
-
 @media screen and (min-width: 768px) {
   .portfolio-signedphotos__img {
     width: 370px;
