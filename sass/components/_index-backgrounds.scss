@@ -11,15 +11,16 @@
 @media screen and(max-width: 480px) and (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
-.index-main-header {
-    width: 480px;
-    background-image: url("../images/img10.png");
-    background-size: 480px 400px;
-    background-repeat: no-repeat;
-    display: flex;
-    margin: 0 auto;
-    background-position: center;
-}}
+    .index-main-header {
+        width: 480px;
+        background-image: url("../images/img10.png");
+        background-size: 480px 400px;
+        background-repeat: no-repeat;
+        display: flex;
+        margin: 0 auto;
+        background-position: center;
+    }
+}
 
 
 @media screen and(min-width: 768px) {
@@ -126,23 +127,25 @@
 
 .index-main-team {
     background-color: var(--index-bg);
-margin-left: 7px;
-width: 100%;
+    width: 100%;
+    margin: 0 auto;
 }
 
-@media screen and(min-width: 768px){.index-main-team {
+@media screen and(min-width: 768px) {
+    .index-main-team {
         background-color: var(--index-bg);
-        margin-left: 7px;
         width: 100%;
         margin: 0 auto;
-    }}
+    }
+}
 
-@media screen and(min-width: 1200px) {.index-main-team {
+@media screen and(min-width: 1200px) {
+    .index-main-team {
         background-color: var(--index-bg);
-        margin-left: 7px;
         width: 100%;
         margin: 0 auto;
-    }}
+    }
+}
 
 .index-footer {
     width: 100%;
