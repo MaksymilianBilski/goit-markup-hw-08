@@ -1,15 +1,14 @@
 .index-main-clients {
-    width: 480px;
     margin-left: 15px;
     margin-bottom: 60px;
 }
 
-@media screen and(min-wdith: 768px){
+@media screen and(min-wdith: 768px) {
     .index-main-clients {
-            width: 100%;
-            margin-left: 15px;
-            margin-bottom: 60px;
-        }
+        width: 100%;
+        margin-left: 15px;
+        margin-bottom: 60px;
+    }
 }
 
 @media screen and(min-width: 1200px) {

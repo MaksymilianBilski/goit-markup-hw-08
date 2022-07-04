@@ -1,7 +1,3 @@
-.index-main-team {
-    width: 480px;
-}
-
 @media screen and(min-width: 768px) {
     .index-main-team {
         width: 100%;
@@ -118,12 +114,13 @@
         margin-bottom: 30px;
     }
 }
+
 @media screen and(max-width: 480px) and (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
-.index-main-team__img{
+    .index-main-team__img {}
 }
-}
+
 @media screen and(min-width: 768px) {
     .index-main-team__img {
         width: 354px;
