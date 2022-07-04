@@ -2064,6 +2064,8 @@
 }
 .portfolio-footer {
   background-color: var(--portfolio-first-bg);
+  width: 100%;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -2118,6 +2120,7 @@
   justify-content: space-evenly;
   align-items: center;
   height: 603px;
+  background-color: var(--index-first-bg);
 }
 
 @media screen and (min-width: 768px) {
