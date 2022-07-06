@@ -1,5 +1,5 @@
 .index-main-clients {
-    margin-left: 15px;
+    margin-left: 10px;
     margin-bottom: 60px;
 }
 
@@ -23,6 +23,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0 auto;
 }
 
 @media screen and(min-width: 1200px) {
@@ -79,7 +80,7 @@
 }
 
 .icons-client:nth-child(n+1) {
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 .icons-client:nth-child(-n + 4) {

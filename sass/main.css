@@ -789,19 +789,19 @@
 }
 
 .container {
-  width: 480px;
+  max-width: 480px;
   margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    max-width: 768px;
     margin: 0 auto;
   }
 }
 @media screen and (min-width: 1200px) {
   .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
   }
 }
@@ -877,6 +877,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 .index-footer__container {
@@ -1416,7 +1417,7 @@
 }
 
 .index-main-clients {
-  margin-left: 15px;
+  margin-left: 10px;
   margin-bottom: 60px;
 }
 
@@ -1438,6 +1439,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 1200px) {
@@ -1491,7 +1493,7 @@
   }
 }
 .icons-client:nth-child(n+1) {
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 .icons-client:nth-child(-n+4) {
@@ -1905,7 +1907,7 @@
   }
 }
 .index-main-header {
-  width: 480px;
+  max-width: 480px;
   background-image: url("../images/img10.png");
   background-size: 480px 400px;
   background-repeat: no-repeat;
@@ -1916,7 +1918,7 @@
 
 @media screen and (max-width: 480px) and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .index-main-header {
-    width: 480px;
+    max-width: 480px;
     background-image: url("../images/img10.png");
     background-size: 480px 400px;
     background-repeat: no-repeat;
@@ -1927,7 +1929,7 @@
 }
 @media screen and (min-width: 768px) {
   .index-main-header {
-    width: 100%;
+    max-width: 100%;
     background-image: url("../images/img10.png");
     background-size: 768px 400px;
     background-repeat: no-repeat;
@@ -1938,7 +1940,7 @@
 }
 @media screen and (min-width: 1200px) {
   .index-main-header {
-    width: 100%;
+    max-width: 100%;
     background-image: url("../images/img10.png");
     background-size: 1600px;
     background-repeat: no-repeat;
