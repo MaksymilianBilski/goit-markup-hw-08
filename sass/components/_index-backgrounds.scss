@@ -39,7 +39,7 @@
     .index-main-header {
         max-width: 100%;
         background-image: url("../images/img10.png");
-        background-size: 1600px;
+        background-size: 100% 600px;
         background-repeat: no-repeat;
         display: flex;
         margin: 0 auto;
@@ -55,6 +55,16 @@
     background-repeat: no-repeat;
 }
 
+@media screen and(max-width: 480px) and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {.index-about-list__img__1 {
+        height: 294px;
+        width: 370px;
+        background-image: url("../images/img1.jpg");
+        fill: cover;
+        background-repeat: no-repeat;
+    }}
+
 .index-about-list__img__2 {
     height: 294px;
     width: 370px;
@@ -63,6 +73,16 @@
     background-repeat: no-repeat;
 }
 
+@media screen and(max-width: 480px) and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {.index-about-list__img__2 {
+        height: 294px;
+        width: 370px;
+        background-image: url("../images/img2.jpg");
+        fill: cover;
+        background-repeat: no-repeat;
+    }}
+
 .index-about-list__img__3 {
     height: 294px;
     width: 370px;
@@ -70,6 +90,16 @@
     fill: cover;
     background-repeat: no-repeat;
 }
+
+@media screen and(max-width: 480px) and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {.index-about-list__img__3 {
+        height: 294px;
+        width: 370px;
+        background-image: url("../images/img3.jpg");
+        fill: cover;
+        background-repeat: no-repeat;
+    }}
 
 .index-about-list__img__1::after {
     content: "Aplikacje Mobilne";
@@ -131,6 +161,14 @@
     margin: 0 auto;
 }
 
+@media screen and(max-width: 480px) and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {.index-main-team {
+        background-color: var(--index-bg);
+        width: 100%;
+        margin: 0 auto;
+    }}
+
 @media screen and(min-width: 768px) {
     .index-main-team {
         background-color: var(--index-bg);
@@ -151,6 +189,13 @@
     width: 100%;
     background-color: var(--index-first-bg);
 }
+
+@media screen and(max-width: 480px) and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {.index-footer {
+        background-color: var(--index-first-bg);
+        width: 100%;
+    }}
 
 @media screen and(min-width: 768px) {
     .index-footer {
