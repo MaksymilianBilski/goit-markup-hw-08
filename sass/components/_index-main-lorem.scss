@@ -36,6 +36,17 @@
     width: 100%;
 }
 
+@media screen and(min-width: 768px) {
+    .index-main-lorem__item {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+        width: 354px;
+    }
+}
+
 @media screen and(min-width: 1200px) {
     .index-main-lorem__item {
         display: flex;
@@ -43,6 +54,7 @@
         justify-content: center;
         flex-direction: column;
         margin: 0 auto;
+        width: 270px;
     }
 }
 
