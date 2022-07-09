@@ -1,6 +1,4 @@
-.index-main-team{
-
-}
+.index-main-team {}
 
 @media screen and(min-width: 768px) {
     .index-main-team {
@@ -119,9 +117,9 @@
     }
 }
 
-        .index-main-team__img {
-            width: 100%;
-        }
+.index-main-team__img {
+    width: 100%;
+}
 
 @media screen and(max-width: 480px) and (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),

@@ -103,7 +103,7 @@
      flex-direction: column;
      justify-content: space-evenly;
      height: 603px;
-    background-color: var(--index-first-bg);
+     background-color: var(--index-first-bg);
  }
 
  @media screen and(min-width: 768px) {
@@ -114,7 +114,7 @@
          flex-wrap: wrap;
          align-items: center;
          height: 463px;
-        background-color: var(--index-first-bg);
+         background-color: var(--index-first-bg);
      }
  }
 
@@ -125,6 +125,6 @@
          justify-content: flex-start;
          align-items: center;
          max-height: 252px;
-        background-color: var(--index-first-bg);
+         background-color: var(--index-first-bg);
      }
  }
