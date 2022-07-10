@@ -1946,7 +1946,7 @@
   min-height: 50px;
   width: 100%;
   border-radius: 4px;
-  padding: 5px;
+  padding: 3px;
   color: var(--index-third-font-color);
 }
 
@@ -1958,7 +1958,7 @@
     min-height: 50px;
     width: 450px;
     border-radius: 4px;
-    padding: 0;
+    padding: 10px;
     color: var(--index-third-font-color);
   }
 }
@@ -1970,7 +1970,7 @@
     min-height: 50px;
     width: 450px;
     border-radius: 4px;
-    padding: 0;
+    padding: 10px;
     color: var(--index-third-font-color);
   }
 }
@@ -3418,7 +3418,7 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
     resize: both;
     min-height: 50px;
-    min-width: 358px;
+    width: 450px;
     border-radius: 4px;
     padding-left: 16px;
     color: var(--portfolio-third-font-color);
@@ -3461,6 +3461,7 @@
 @media screen and (min-width: 1200px) {
   .portfolio-footer__newsletterbutton {
     margin-top: 0;
+    margin-left: 12px;
   }
 }
 .portfolio-footer__newslettersvg {
