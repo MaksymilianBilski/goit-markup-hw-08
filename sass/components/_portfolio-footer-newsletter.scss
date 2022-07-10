@@ -1,8 +1,15 @@
 .portfolio-footer__newsletter {
-    margin: 0 auto;
-    width: 570px;
+    width: 100%;
     height: 83px;
     margin: 0 0 60px;
+}
+
+@media screen and (min-width: 768px) {
+    .portfolio-footer__newsletter {
+        margin: 0 auto;
+        width: 570px;
+        height: 83px;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -10,7 +17,6 @@
         margin: 0 auto;
         width: 570px;
         height: 83px;
-        margin: 0 auto;
     }
 }
 
@@ -18,6 +24,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 @media screen and(min-width: 768px) {
@@ -77,17 +84,19 @@
     }
 }
 
+
 .portfolio-footer__newsletteremail {
     background-color: transparent;
     border: 1px solid rgb(255, 255, 255, 0.3);
     resize: both;
     min-height: 50px;
-    min-width: 358px;
+            width: 100%;
     border-radius: 4px;
     padding-left: 16px;
     color: var(--portfolio-third-font-color);
     margin-bottom: 20px;
 }
+
 
 @media screen and(min-width: 768px) {
     .portfolio-footer__newsletteremail {

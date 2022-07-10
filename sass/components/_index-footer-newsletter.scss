@@ -21,6 +21,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 @media screen and(min-width: 768px) {
@@ -29,6 +30,7 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            width: 450px;
         }
     }
 }
@@ -38,6 +40,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+        width: auto;
     }
 }
 
@@ -54,8 +57,30 @@
     margin-bottom: 20px;
 }
 
+@media screen and(min-width: 768px) {
+    .index-footer-newsletter__h3 {font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--index-third-font-color);
+        margin-bottom: 20px;}
+}
+
 @media screen and(min-width: 1200px) {
-    .index-footer-newsletter__h3 {}
+    .index-footer-newsletter__h3 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--index-third-font-color);
+        margin-bottom: 20px;
+    }
 }
 
 .index-footer-newsletter__placeholder {
@@ -63,15 +88,37 @@
     border: 1px solid rgb(255, 255, 255, 0.3);
     resize: both;
     min-height: 50px;
-    min-width: 358px;
+    width: 100%;
     border-radius: 4px;
-    padding-left: 16px;
+    padding: 5px;
     color: var(--index-third-font-color);
 }
 
-@media screen and(min-width: 1200px) {
-    .index-footer-newsletter__placeholder {}
+@media screen and(min-width: 768px) {
+    .index-footer-newsletter__placeholder {
+            background-color: transparent;
+            border: 1px solid rgb(255, 255, 255, 0.3);
+            resize: both;
+            min-height: 50px;
+            width: 450px;
+            border-radius: 4px;
+            padding: 0;
+            color: var(--index-third-font-color);
+        }
 }
+
+@media screen and(min-width: 1200px) {
+        .index-footer-newsletter__placeholder {
+            background-color: transparent;
+            border: 1px solid rgb(255, 255, 255, 0.3);
+            resize: both;
+            min-height: 50px;
+            width: 450px;
+            border-radius: 4px;
+            padding: 0;
+            color: var(--index-third-font-color);
+        }
+    }
 
 .index-footer-newsletter__button {
     font-family: 'Roboto';
@@ -88,7 +135,7 @@
     border-radius: 4px;
     color: var(--index-third-font-color);
     cursor: pointer;
-    width: 200px;
+    width: auto;
     height: 50px;
     margin-top: 20px;
 }
