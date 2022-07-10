@@ -731,6 +731,7 @@
   list-style: none;
   display: flex;
   flex-direction: column;
+  height: 100vw;
 }
 
 .mobile-menu__agency {
@@ -759,6 +760,14 @@
   display: flex;
 }
 
+.mobile-menu__contacts {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  margin-top: auto;
+}
+
 .mobile-menu__tel {
   font-family: "Roboto";
   font-style: normal;
@@ -768,8 +777,10 @@
   letter-spacing: 0.02em;
   color: var(--index-link-color);
   text-decoration: none;
-  display: flex;
-  margin: 306px 0 32px;
+}
+
+.mobile-menu__contactitem {
+  margin-bottom: auto;
 }
 
 .mobile-menu__email {
