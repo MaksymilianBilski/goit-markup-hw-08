@@ -1,8 +1,17 @@
 .index-modal-form {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    max-width: 450px;
     height: 609px;
+}
+
+@media screen and(max-width: 320px) {
+    .index-modal-form {
+        display: flex;
+        flex-direction: column;
+        max-width: 320px;
+        height: 609px;
+    }
 }
 
 @media screen and(min-width: 768px) {
@@ -37,6 +46,7 @@
 .index-modal-form__label {
     display: flex;
     flex-direction: column;
+    margin: -0 
 }
 
 @media screen and(min-width: 768px){
@@ -68,6 +78,17 @@
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
 }
+
+@media screen and(max-width: 320px) {
+    .index-modal-form__userarea {
+            position: relative;
+            margin-left: 40px;
+            width: auto;
+            height: 40px;
+            margin-bottom: 10px;
+            border: 1px solid rgba(33, 33, 33, 0.2);
+            border-radius: 4px;
+        }}
 
 @media screen and(min-width:768px) {
     .index-modal-form__userarea {
@@ -110,7 +131,7 @@
 }
 
 .index-modal-form__usersvg {
-    top: 126px;
+    top: 127px;
     left: 55px;
     position: absolute;
 }
@@ -153,6 +174,16 @@
     border-radius: 4px;
 }
 
+    @media screen and(max-width: 320px) {.index-modal-form__telarea {
+            position: relative;
+            margin-left: 40px;
+            width: auto;
+            height: 40px;
+            margin-bottom: 10px;
+            border: 1px solid rgba(33, 33, 33, 0.2);
+            border-radius: 4px;
+        }}
+
 @media screen and(min-width:768px) {
     .index-modal-form__telarea {
         position: relative;
@@ -194,7 +225,7 @@
 }
 
 .index-modal-form__telsvg {
-    top: 194px;
+    top: 195px;
     left: 54.27px;
     position: absolute;
 }
@@ -237,6 +268,17 @@
     border-radius: 4px;
 }
 
+@media screen and(max-width: 320px) {
+    .index-modal-form__emailarea {
+            position: relative;
+            margin-left: 40px;
+            width: auto;
+            height: 40px;
+            margin-bottom: 10px;
+            border: 1px solid rgba(33, 33, 33, 0.2);
+            border-radius: 4px;
+        }}
+
 @media screen and(min-width:768px) {
     .index-modal-form__emailarea {
         position: relative;
@@ -278,7 +320,7 @@
 }
 
 .index-modal-form__emailsvg {
-    top: 263px;
+    top: 262px;
     left: 53.5px;
     position: absolute;
 }
@@ -320,6 +362,19 @@
     font-size: 14px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+}
+
+@media screen and(max-width: 320px){
+    .index-modal-form__commentplace {
+            width: auto;
+            height: 120px;
+            margin-left: 40px;
+            padding-left: 16px;
+            padding-bottom: 81px;
+            font-size: 14px;
+            border: 1px solid rgba(33, 33, 33, 0.2);
+            border-radius: 4px;
+        }
 }
 
 @media screen and(min-width:768px) {
@@ -520,8 +575,27 @@
     cursor: pointer;
 }
 
+@media screen and(max-width: 320px) {.index-modal-form__button {
+        background-color: var(--index-link-color);
+        color: var(--index-third-font-color);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        letter-spacing: 0.06em;
+        border: none;
+        width: 200px;
+        height: 50px;
+        margin: 0 auto;
+        padding: 0;
+        cursor: pointer;
+    }}
+
 .modal {
-    width: 100%;
+    width: auto;
     height: 609px;
     background-color: #fff;
     position: absolute;
@@ -531,6 +605,18 @@
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
 }
+
+@media screen and(max-width: 320px) {.modal {
+        width: auto;
+        height: 609px;
+        background-color: #fff;
+        position: absolute;
+        top: 22%;
+        left: 50%;
+        transform: translate(-50%);
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 4px;
+    }}
 
 @media screen and(min-width: 768px) {
     .modal {
@@ -578,7 +664,15 @@
 }
 
 .backdrop {
-    display: none;
+            display: inline-block;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.2);
+                transition: 500ms;
+                transition-timing-function: ease-in;
 }
 
 @media screen and(min-width: 768px) {

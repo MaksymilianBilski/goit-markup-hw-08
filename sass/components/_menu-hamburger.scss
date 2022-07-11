@@ -65,7 +65,7 @@
 .mobile-menu {
     padding: 0;
     margin: 0;
-    margin-left: 40px;
+
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -120,6 +120,7 @@ margin-bottom: auto;
 
 .mobile-menu__contactitem{
     margin-bottom: auto;
+    flex-wrap: wrap;
 }
 
 .mobile-menu__email {
@@ -131,13 +132,13 @@ margin-bottom: auto;
     letter-spacing: 0.02em;
     color: var(--index-first-font-color);
     text-decoration: none;
-    display: flex;
+
 }
 
 .mobile-menu-media {
     display: flex;
-    margin: 64px 0 0 0px;
     list-style: none;
+flex-wrap: wrap;
     padding: 0;
     margin-bottom: auto;
 }
