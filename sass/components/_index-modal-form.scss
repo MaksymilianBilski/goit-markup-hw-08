@@ -12,7 +12,7 @@
         display: flex;
         flex-direction: column;
         min-width: 320px;
-        height: 609px;
+        height: auto;
     }
 }
 
@@ -618,12 +618,12 @@
     border-radius: 4px;
 }
 
-@media screen and(max-width: 320px) {.modal {
+@media screen and(min-width: 320px) {.modal {
         width: auto;
         height: 609px;
         background-color: #fff;
         position: absolute;
-        top: 22%;
+        top: 12%;
         left: 50%;
         transform: translate(-50%);
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);

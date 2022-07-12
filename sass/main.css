@@ -92,7 +92,7 @@
     display: flex;
     flex-direction: column;
     min-width: 320px;
-    height: 609px;
+    height: auto;
   }
 }
 @media screen and (min-width: 768px) {
@@ -675,13 +675,13 @@
   border-radius: 4px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
   .modal {
     width: auto;
     height: 609px;
     background-color: #fff;
     position: absolute;
-    top: 22%;
+    top: 12%;
     left: 50%;
     transform: translate(-50%);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1426,6 +1426,11 @@
     display: none;
   }
 }
+@media screen and (min-width: 1200px) {
+  .index-main-about {
+    width: auto;
+  }
+}
 .index-main-about__h2 {
   font-size: 36px;
   line-height: 1.166em;
@@ -1443,7 +1448,14 @@
   list-style: none;
 }
 
-.index-about-list__item {
+@media screen and (min-width: 1200px) {
+  .index-about-list {
+    width: auto;
+    margin: 0;
+    padding: 0;
+  }
+}
+.index-about-list__item:nth-child(-n+2) {
   padding-right: 30px;
 }
 
@@ -1779,6 +1791,11 @@
 @media screen and (min-width: 1200px) {
   .icons-client:not(:last-child) {
     margin-right: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .icons-client:last-child {
+    margin-right: 0px;
   }
 }
 .icons-client__svg {
@@ -2266,7 +2283,7 @@
   .index-main-header {
     max-width: 100%;
     background-image: url("../images/img10.png");
-    background-size: 768px 400px;
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     margin: 0 auto;
@@ -2277,7 +2294,7 @@
   .index-main-header {
     max-width: 100%;
     background-image: url("../images/img10.png");
-    background-size: 100% 600px;
+    background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     margin: 0 auto;

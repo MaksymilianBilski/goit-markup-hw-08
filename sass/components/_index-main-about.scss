@@ -8,6 +8,12 @@
     }
 }
 
+@media screen and(min-width: 1200px) {
+    .index-main-about {
+        width: auto;
+    }
+}
+
 .index-main-about__h2 {
     font-size: 36px;
     line-height: 1.166em;
@@ -30,10 +36,14 @@
 }
 
 @media screen and(min-width: 1200px) {
-    .index-about-list {}
+    .index-about-list {
+        width: auto;
+        margin: 0;
+        padding: 0;
+    }
 }
 
-.index-about-list__item {
+.index-about-list__item:nth-child(-n + 2) {
     padding-right: 30px;
 }
 
