@@ -2923,7 +2923,7 @@
   opacity: 0.9;
   overflow: hidden;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 @media screen and (max-width: 480px) and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
