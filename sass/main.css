@@ -2546,6 +2546,10 @@
   display: none;
 }
 
+.portfolio-header-contacts__item {
+  width: auto;
+}
+
 @media screen and (min-width: 768px) {
   .portfolio-header-contacts {
     font-size: 14px;
@@ -2556,6 +2560,7 @@
     flex-direction: column;
     align-content: flex-start;
     list-style: none;
+    padding: 0;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -2571,7 +2576,7 @@
 }
 @media screen and (min-width: 768px) {
   .portfolio-header-contacts__contact {
-    margin-left: 10px;
+    margin-left: 0px;
     display: flex;
   }
 }
@@ -2582,7 +2587,7 @@
 }
 @media screen and (min-width: 768px) {
   .portfolio-header-contacts__contact:first-child {
-    margin-right: 30px;
+    margin-right: 0px;
   }
 }
 @media screen and (min-width: 1200px) {
